@@ -1,0 +1,68 @@
+Simple Scala Project for Bank application
+
+How to use this Application
+==========================
+ run BankApp
+ Enter password for you Account(12345 is correct password)
+  12345
+
+ this is correct password, user is authenticated
+  then user has to select - do you want to do withdraw or deposit(w/d)
+                          d
+                          How much you want to deposit
+                          10000
+                          successfully deposited 10000 and you current balance is 10000
+   then you can continue - do you want to continue, please enter yes/no
+                            yes
+                            How much you want to deposit
+                            4000
+                            successfully deposited 4000 and you current balance is 14000
+                            do you want to continue, please enter yes/no
+                            yes
+                            do you want to do withdraw or deposit(w/d)
+                            w
+                            How much you want to withdraw
+                            1000
+                            successfully withdrew 1000 and you current balance is 13000
+
+
+
+
+    Console looks like this
+    ======================
+Enter password for you Account(12345 is correct password)
+12345
+User is authenticated
+do you want to do withdraw or deposit(w/d)
+[INFO] [11/01/2019 18:36:05.656] [actorCapabilitiesDemo-akka.actor.default-dispatcher-4] [akka://actorCapabilitiesDemo/user/billionaire] User is authenticated
+d
+How much you want to deposit
+10000
+do you want to continue, please enter yes/no
+
+ successfully deposited 10000 and you current balance is 10000
+yes
+do you want to do withdraw or deposit(w/d)
+d
+How much you want to deposit
+4000
+do you want to continue, please enter yes/no
+
+ successfully deposited 4000 and you current balance is 14000
+yes
+do you want to do withdraw or deposit(w/d)
+w
+How much you want to withdraw
+1000
+do you want to continue, please enter yes/no
+
+ successfully withdrew 1000 and you current balance is 13000
+
+
+
+
+
+
+
+
+
